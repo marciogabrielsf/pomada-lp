@@ -19,6 +19,7 @@ const config: Config = {
 				quaternary: "#F1e7c5",
 				green1: "#B6d4bb",
 				green2: "#8AA18E",
+				alternative: "#40434E"
 			},
 		},
 	},

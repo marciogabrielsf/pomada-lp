@@ -6,7 +6,7 @@ export default function Masthead() {
 		<div className="min-h-screen from-green1 to-green2 bg-gradient-to-t flex justify-center items-center">
 			<div className="max-w-5xl items-center text-center flex  gap-4 flex-col">
 				<h1 className="text-5xl font-bold drop-shadow-lg">
-					Recupere Sua Pele com a Magia da Natureza Brasileira.
+					Restaure Sua Pele com a Magia da Natureza Brasileira.
 				</h1>
 				<h2 className="text-gray-200 drop-shadow-md text-xl">
 					Descubra a Poderosa Pomada à Base de Pau Ferro para Alívio Imediato e Cura de Feridas.

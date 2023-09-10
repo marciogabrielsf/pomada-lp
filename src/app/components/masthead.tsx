@@ -33,7 +33,7 @@ export default function Masthead() {
 				<button className="px-5 py-2  drop-shadow-md z-10 bg-primary w-fit rounded-full transition-all active:translate-y-1 hover:scale-105">
 					Saiba Mais
 				</button>
-				<Image width={700} src={Tube} alt="Tubo de pomada Cicabrev." />
+				<Image priority={true} width={700} src={Tube} alt="Tubo de pomada Cicabrev." />
 			</motion.div>
 		</div>
 	);

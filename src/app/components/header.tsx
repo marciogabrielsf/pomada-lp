@@ -1,6 +1,6 @@
 "use client";
-import React, { useEffect, useState } from "react";
-import { motion, useScroll, scroll } from "framer-motion";
+import React, { useState } from "react";
+import { useScroll } from "framer-motion";
 
 export default function Header() {
 	const [isScrolled, setIsScrolled] = useState(false);
@@ -13,12 +13,12 @@ export default function Header() {
 	});
 
 	return (
-		<nav
+		<header
 			className={`transition-all duration-300 flex z-10 top-0 justify-center sticky -mb-[5.1rem] ${
-				isScrolled && "backdrop-blur-xl drop-shadow-md"
+				isScrolled && "backdrop-blur-xl drop-shadow-md bg-[rgba(255,255,255,0.05)]"
 			}`}
 		>
-			<div className="w-full max-w-[100rem] bg-transparent text-white flex justify-around items-center p-5">
+			<nav className="w-full max-w-[100rem] bg-transparent text-white flex justify-around items-center p-5">
 				<a className="text-xl font-bold">Cicabrev</a>
 				<ul className="flex gap-12 flex-row items-center [&>li]:transition-all hover:[&>li]:text-gray-300">
 					<li>
@@ -37,7 +37,7 @@ export default function Header() {
 						Encomende Agora
 					</button>
 				</ul>
-			</div>
-		</nav>
+			</nav>
+		</header>
 	);
 }

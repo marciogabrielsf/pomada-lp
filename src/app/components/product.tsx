@@ -1,22 +1,44 @@
 import React from "react";
+import { MdOutlineScience, MdAutorenew } from "react-icons/md";
+import { BsFillLightningFill } from "react-icons/bs";
 
 export default function Product() {
 	return (
-		<section className="bg-alternative h-screen flex justify-center items-center flex-col ">
-			<div className="basis-2">
-				<h1 className="text-5xl p-2 text-center  text-white drop-shadow-lg">
-					Benefícios da Pomada de Jucá
+		<section className="bg-alternative h-screen flex justify-center items-center flex-col gap-y-32">
+			<div className="">
+				<h1 className="text-5xl p-2 text-center font-bold text-white drop-shadow-lg">
+					Benefícios exclusivos da Pomada Cicabrev.
 				</h1>
-				<h2 className="text-2xl text-center text-gray-200 drop-shadow-md mt-6">
-					Um breve beneficio mais geral
+				<h2 className="text-2xl text-center text-gray-400 drop-shadow-md mt-6">
+					Veja o que a cicabrev faz de tão especial.
 				</h2>
 			</div>
 
-			<div className="min-h-[20rem] w-full max-w-[100rem] grid gap-4 grid-cols-2 text-center [&>div]:flex [&>div]:justify-center [&>div]:items-center">
+			<div className=" max-w-[90rem] grid gap-20 grid-cols-3 text-center [&>div]:flex-col [&>div]:flex [&>div]:justify-start [&>div]:items-center [&>div]:gap-6 ">
 				<div>
-					<h1>Beneficio 1</h1>
+					<BsFillLightningFill className="text-5xl text-quaternary" />
+					<h1 className="font-bold text-2xl text-quaternary">Cicatrização rápida de feridas</h1>
+					<h2>
+						Cicabrev acelera o processo de cicatrização de feridas, proporcionando alívio rápido e
+						promovendo a regeneração da pele danificada.
+					</h2>
 				</div>
-				<div>Beneficio 2</div>
+				<div>
+					<MdAutorenew className="text-5xl text-quaternary" />
+					<h1 className="font-bold text-2xl text-quaternary">Renovação profunda da pele</h1>
+					<h2>
+						Cicabrev acelera o processo de cicatrização de feridas, proporcionando alívio rápido e
+						promovendo a regeneração da pele danificada.
+					</h2>
+				</div>
+				<div>
+					<MdOutlineScience className="text-5xl text-quaternary" />
+					<h1 className="font-bold text-2xl text-quaternary">Comprovado cientificamente</h1>
+					<h2>
+						A eficácia do Cicabrev é respaldada por estudos científicos rigorosos, conduzidos pela
+						universidade estadual do ceará, comprovando seus benefícios excepcionais.
+					</h2>
+				</div>
 			</div>
 		</section>
 	);

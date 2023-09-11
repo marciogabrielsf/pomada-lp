@@ -20,7 +20,7 @@ export default function Masthead() {
 			className="min-h-screen pt-20 px-5 overflow-hidden from-green1 to-green2 bg-gradient-to-t flex justify-center items-center drop-shadow-[0_5px_30px_rgba(0,0,0,0.5)]"
 		>
 			<motion.div style={{ y }} className="max-w-5xl items-center text-center flex  gap-6 flex-col">
-				<h1 className="text-xl sm:text-4xl lg:text-5xl font-bold drop-shadow-lg">
+				<h1 className="text-2xl sm:text-4xl lg:text-5xl font-bold drop-shadow-lg">
 					Restaure Sua Pele com a Magia da <span>Natureza Brasileira.</span>
 				</h1>
 				<h2 className="text-gray-200 drop-shadow-md text-sm md:text-xl lg:text-2xl ">

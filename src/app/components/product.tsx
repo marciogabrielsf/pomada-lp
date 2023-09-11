@@ -14,7 +14,7 @@ export default function Product() {
 				</h2>
 			</div>
 
-			<div className=" max-w-[90rem] grid gap-20 grid-cols-1 md:grid-cols-3 lg:text-center [&>div]:flex-col [&>div]:flex [&>div]:justify-start [&>div]:items-center [&>div]:gap-6 ">
+			<div className=" max-w-[90rem] grid gap-20 grid-cols-1 md:grid-cols-3 text-center [&>div]:flex-col [&>div]:flex [&>div]:justify-start [&>div]:items-center [&>div]:gap-6 ">
 				<div>
 					<BsFillLightningFill className="text-5xl text-quaternary" />
 					<h1 className="font-bold text-3xl lg:text-4xl  text-quaternary">

@@ -18,9 +18,9 @@ export default function Header() {
 				isScrolled && "backdrop-blur-xl drop-shadow-md bg-[rgba(0,0,0,0.05)]"
 			}`}
 		>
-			<nav className="w-full max-w-[100rem] bg-transparent text-white flex justify-around items-center p-5">
+			<nav className=" w-full max-w-[100rem] bg-transparent text-white flex justify-around items-center p-5">
 				<a className="text-xl font-bold">Cicabrev</a>
-				<ul className="flex gap-12 flex-row items-center [&>li]:transition-all hover:[&>li]:text-gray-300">
+				<ul className="hidden md:flex gap-12 flex-row items-center [&>li]:transition-all hover:[&>li]:text-gray-300">
 					<li>
 						<a href="">INICIO</a>
 					</li>

@@ -15,18 +15,15 @@ export default function Masthead() {
 	let y = useTransform(scrollYProgress, [0, 1], ["0%", "70%"]);
 
 	return (
-		<div
+		<section
 			ref={ref}
-			className="min-h-screen pt-20 overflow-hidden from-green1 to-green2 bg-gradient-to-t flex justify-center items-center drop-shadow-[0_5px_30px_rgba(0,0,0,0.5)]"
+			className="min-h-screen pt-20 px-5 overflow-hidden from-green1 to-green2 bg-gradient-to-t flex justify-center items-center drop-shadow-[0_5px_30px_rgba(0,0,0,0.5)]"
 		>
-			<motion.div
-				style={{ y }}
-				className="max-w-5xl  items-center text-center flex  gap-6 flex-col"
-			>
-				<h1 className="text-5xl font-bold drop-shadow-lg">
+			<motion.div style={{ y }} className="max-w-5xl items-center text-center flex  gap-6 flex-col">
+				<h1 className="text-xl sm:text-4xl lg:text-5xl font-bold drop-shadow-lg">
 					Restaure Sua Pele com a Magia da <span>Natureza Brasileira.</span>
 				</h1>
-				<h2 className="text-gray-200 drop-shadow-md text-xl">
+				<h2 className="text-gray-200 drop-shadow-md text-sm md:text-xl lg:text-2xl ">
 					Descubra a Poderosa Pomada Cicabrev. Feita à Base de Pau Ferro para Alívio Imediato e Cura
 					de Feridas.
 				</h2>
@@ -35,6 +32,6 @@ export default function Masthead() {
 				</button>
 				<Image priority={true} width={700} src={Tube} alt="Tubo de pomada Cicabrev." />
 			</motion.div>
-		</div>
+		</section>
 	);
 }

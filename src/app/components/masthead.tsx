@@ -12,12 +12,12 @@ export default function Masthead() {
 		offset: ["start start", "end start"],
 	});
 
-	let y = useTransform(scrollYProgress, [0, 1], ["0%", "60%"]);
+	let y = useTransform(scrollYProgress, [0, 1], ["0%", "70%"]);
 
 	return (
 		<div
 			ref={ref}
-			className="min-h-screen pt-20 overflow-hidden from-green1 to-green2 bg-gradient-to-t flex justify-center items-center drop-shadow-[0_5px_10px_rgba(0,0,0,0.25)]"
+			className="min-h-screen pt-20 overflow-hidden from-green1 to-green2 bg-gradient-to-t flex justify-center items-center drop-shadow-[0_5px_30px_rgba(0,0,0,0.5)]"
 		>
 			<motion.div
 				style={{ y }}

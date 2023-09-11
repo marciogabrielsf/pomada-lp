@@ -4,8 +4,8 @@ import { BsFillLightningFill } from "react-icons/bs";
 
 export default function Product() {
 	return (
-		<section className="bg-alternative h-screen flex justify-center items-center flex-col gap-y-32">
-			<div className="">
+		<section className="bg-alternative min-h-screen p-10 flex justify-center items-center flex-col gap-y-28">
+			<div>
 				<h1 className="text-5xl p-2 text-center font-bold text-white drop-shadow-lg">
 					Benefícios exclusivos da Pomada Cicabrev.
 				</h1>
@@ -18,7 +18,7 @@ export default function Product() {
 				<div>
 					<BsFillLightningFill className="text-5xl text-quaternary" />
 					<h1 className="font-bold text-2xl text-quaternary">Cicatrização rápida de feridas</h1>
-					<h2>
+					<h2 className="text-gray-300">
 						Cicabrev acelera o processo de cicatrização de feridas, proporcionando alívio rápido e
 						promovendo a regeneração da pele danificada.
 					</h2>
@@ -26,7 +26,7 @@ export default function Product() {
 				<div>
 					<MdAutorenew className="text-5xl text-quaternary" />
 					<h1 className="font-bold text-2xl text-quaternary">Renovação profunda da pele</h1>
-					<h2>
+					<h2 className="text-gray-300">
 						Cicabrev acelera o processo de cicatrização de feridas, proporcionando alívio rápido e
 						promovendo a regeneração da pele danificada.
 					</h2>
@@ -34,7 +34,7 @@ export default function Product() {
 				<div>
 					<MdOutlineScience className="text-5xl text-quaternary" />
 					<h1 className="font-bold text-2xl text-quaternary">Comprovado cientificamente</h1>
-					<h2>
+					<h2 className="text-gray-300">
 						A eficácia do Cicabrev é respaldada por estudos científicos rigorosos, conduzidos pela
 						universidade estadual do ceará, comprovando seus benefícios excepcionais.
 					</h2>

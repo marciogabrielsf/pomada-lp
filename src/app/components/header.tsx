@@ -15,7 +15,7 @@ export default function Header() {
 	return (
 		<header
 			className={`transition-all duration-300 flex z-10 top-0 justify-center sticky -mb-[5.1rem] ${
-				isScrolled && "backdrop-blur-xl drop-shadow-md bg-[rgba(0,0,0,0.05)]"
+				isScrolled && "backdrop-blur-xl"
 			}`}
 		>
 			<nav className=" w-full max-w-[100rem] bg-transparent text-white flex justify-around items-center p-5">

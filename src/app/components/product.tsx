@@ -32,7 +32,7 @@ const itemVariants: Variants = {
 
 export default function Product() {
 	return (
-		<section className="bg-alternative min-h-screen p-5 flex justify-center items-center flex-col gap-y-28">
+		<section className="bg-alternative min-h-screen p-5 py-32 flex justify-center items-center flex-col gap-y-28">
 			<motion.div
 				variants={mastheadVariants}
 				initial="hidden"

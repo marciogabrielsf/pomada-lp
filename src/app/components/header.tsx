@@ -53,6 +53,7 @@ export default function Header() {
 					className="hidden md:flex gap-12 flex-row items-center [&>li]:transition-colors hover:[&>li]:text-gray-300"
 				>
 					<motion.li variants={itemVariants}>
+
 						<a href="">INICIO</a>
 					</motion.li>
 					<motion.li variants={itemVariants}>
